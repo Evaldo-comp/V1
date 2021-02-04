@@ -1,0 +1,165 @@
+body {
+    background-color: #1d1f21;
+    color: #c9cacc;
+    font-family: Menlo,Meslo LG,monospace;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    display: block;
+    margin: 3rem 3rem 0rem 3rem;
+    margin-left: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 px 40px 0px 40px;
+    box-sizing: border-box;
+    line-height: 1.725;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+body .h1{
+    margin-top: 3rem;
+}
+.foto{
+    width: 160px;
+    height: 170px;
+    border-radius: 170px;
+    float:right;
+    border: 5px solid;
+    border-color: rgb(7, 59, 35);
+    filter: drop-shadow(0px -1px 5px #1e5327);
+}
+.titulos{
+    color: #2bbc8a;
+    font-size: 2em;
+    display:inline-block;
+    text-align: left;
+}
+.subtitulo{
+    font-size: 1.2em;
+    color: #666;
+}
+p {
+    color: ivory;
+    font-weight:normal;
+    letter-spacing: .01em;
+    text-align: justify;
+}
+main .titulos{
+    font-size: 1.5rem;
+}
+
+.img-icon{
+   
+    filter:invert(80%);
+    
+}
+.img-icon:hover{
+   
+   filter: drop-shadow(0px -1px 5px #16db37);
+    
+}
+
+
+.column {
+   float:left;
+   margin-right: 30px;
+   font-weight:normal;
+   display:block;
+   margin-left:40px;
+   
+}
+.lista-sobre-mim{
+    padding-left: 3px;
+ 
+   
+   
+}
+.lista-sobre-paixoes{
+    padding-left: 3px;
+  
+   
+}
+.lista-sobre-foco{
+    padding-left: 3px;
+    
+   
+}
+.row{
+    margin: auto;
+    max-width: 450px;
+    display:contents;
+    float:inline-start;
+    margin-bottom:13px;
+    
+    
+  
+   
+}
+.row ul {
+    list-style-type: none;
+    
+}
+.row ul li {
+    margin-top: 7px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #266fc5;
+}
+
+
+section {
+  
+    display:inline-block;
+}
+section .h1{
+    margin-top: 5rem;
+}
+
+.lendo{
+    margin-top: 10px;
+   
+    color: #2bbc8a;
+    font-size: 1em;
+    display: inline-block;
+    text-align: left;
+}
+
+.livros{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+  
+}
+.capas{
+    height: 200px;
+    margin-right: 10px;
+   
+}
+
+.capas:hover{
+    box-shadow: rgba(58, 145, 40, 10);
+    display: inline-block; 
+    padding: .5em; 
+    background-color:#2bbc8a;
+    vertical-align:bottom; 
+    transform: ranslateZ (1); 
+    backface-visibility: hidden; 
+    transition: 0,3s;
+   
+    transition: 1s;
+}
+.contato{
+  
+}
+.contato h1{
+    font-size: 1.4em;
+    color:#2bbc8a;
+    
+ }
+ footer {
+    clear: both;
+    position:static;
+    height: 30px;
+    margin-top: -1px;
+    font-size: .8em;
+    text-align: center;
+    color: rgb(116, 119, 112);
+}
